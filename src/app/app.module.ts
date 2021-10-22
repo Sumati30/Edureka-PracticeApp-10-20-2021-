@@ -4,6 +4,9 @@ import { BrowserModule } from "@angular/platform-browser";
 import { AppComponent } from "./app.component";
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './Header/header.component';
+import { HomeComponent } from './Home/home.component';
+import { SearchComponent } from './Home/search.component';
+import { QuickSearchComponent } from './Home/quickSearch.component';
 
 
 @NgModule ({
@@ -13,8 +16,12 @@ import { HeaderComponent } from './Header/header.component';
  declarations : [
   AppComponent,
   FooterComponent,
-  HeaderComponent
+  HeaderComponent,
+  HomeComponent,
+  SearchComponent,
+  QuickSearchComponent
  ],
+ 
  providers : [
 
  ],
